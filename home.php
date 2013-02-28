@@ -45,18 +45,14 @@
             <?php
             if (pll_current_language() == "fr") {
                 $news_cat_id = 17;
-                // Use it for the link on the bottom and remove this comment
-                $news_all_posts = "Voir tous les articles";
             }
             else if (pll_current_language() == "en") {
                 $news_cat_id = 20;
-                // Use it for the link on the bottom and remove this comment
-                $news_all_posts = "View all posts";
             }
             ?>            
             
             <h2><?php echo(get_cat_name($news_cat_id)); ?></h2> 
-                    
+            <?php echo(pll__('view_all_posts')); ?>
             <?php
             $news_args = array(
                 'posts_per_page'  => 5,
