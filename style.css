@@ -18,11 +18,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%; /* font-size 1em = 10px */
+    margin-top: 0px;
 }
 
 nav ul li {
     display: inline-block;
 }
+
+p{
+text-align: justify;	
+	}
 
 /** HEADER **/
 header#header {
@@ -95,9 +100,14 @@ nav#languages ul li.separator:after {
     content: "/";
 }
 
+.lang-item {
+	display: inline;
+	list-style: none;
+}
+
 #search{
-margin-left: 875px;
-list-style-type: none;
+	margin-left: 875px;
+	list-style-type: none;
 	}
 
 /** BANNER **/
@@ -119,78 +129,108 @@ list-style-type: none;
     height: 5px;
 }
 
-/** CONTENT **/
+/** CONTENT home **/
 
-section#content {
+section#content_home {
     font-size: 1.4em; /* 14px */
     background: #ffffff url("../images/grid.png") top center no-repeat;
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }
 
-#content {
-margin-left: 250px;	
-margin-right: 250px;
-	}
-
-section#content .col {
+section#content_home .col {
     width: 20em;
     float: left;
 }
 
-section#content #first a{
+section#content_home #first a{
 color: black;
 text-decoration: none;
 }
 
-section#content #first .col {
+#content_home #first h2{
+font-weight: bold;
+color: #252525;
+	}
+
+section#content_home #first .col {
     margin-top: 1em;
     padding: 80px 1em 1em 1em;
     background-position: 50% 0%;
     background-repeat: no-repeat;
 }
 
-
-section#content #first #multitechno {
+section#content_home #first #multitechno {
     background-image: url("./images/icon_multitechno.png");
 }
 
-section#content #first #html5 {
+section#content_home #first #html5 {
     background-image: url("./images/icon_html5.png");
 }
 
-section#content #first #opensource {
-    background-image: url("./images/icon_opensource.png");
+section#content_home #first #opensource {
+    background-image: url("./images/puzzle.png");
 }
 
-section#content #first {
-    min-height: 15em;
+section#content_home #first {
+    min-height: 13em;
     border-bottom: 1px dashed #AAAAAA;
     background-color: #dfdfdf;
 }
 
-section#content #first h2 {
+section#content_home #first h2 {
     text-align: center;
-    font-size: 1.6em
+    font-size: 1em
 }
 
-#content #second {
-color: yellow;	
+section#content_home #second a{
+	color: #0a4d6c;
+	text-decoration: none;
+}
+
+section#content_home #second a:hover{
+	color: #0a4d6c;
+	text-decoration: underline;
+}
+
+section#content_home #second .col {
+    margin-top: 1em;
+    padding: 20px 1em 1em 1em;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+section#content_home #second h2 {
+	color: #3c6900;
+    font-size: 1.4em;
+}
+
+section#content_home #second p {
+font-size: 0.9em;	
 	}
 
-
-section#content #second {
+#titre_article_home {
+list-style-type: square;
+color: #07394f;	
+	}
+	
+#titre_article_home p{ /** espace entre chaque paragraphe d'articles de la home **/
+padding-top: 0.8em;	
+	}
+	
+.date {
+color: gray;
+font-size: 0.85em;
 }
 
-section#content #second .col {
-    padding: 1em;
-    width: 20em;
-    float: left;
-}
-
-section#content #second h2 {
-    font-size: 1.4em
-}
+.voir_articles {
+padding-top: 1em;
+color: #07394f;	
+	}
+	
+.voir_articles a:hover{
+text-decoration: underline;	
+	}
 
 @media screen and (min-width: 960px) {
 }
@@ -201,6 +241,63 @@ section#content #second h2 {
 @media handheld, only screen and (max-width: 775px) {
 }
 
+/** CONTENT pages and singles **/
+
+
+#main_content {
+	width: 50%;
+	text-align: justify;
+	padding: 1em;
+    font-size: 1.4em; /* 14px */
+    background: #ffffff url("./images/grid.png") top left repeat;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+	margin-left: 250px;	
+	margin-right: 250px;
+	}
+
+
+@media screen and (min-width: 960px) {
+}
+
+@media handheld, only screen and (max-width: 960px) {
+}
+
+@media handheld, only screen and (max-width: 810px) {
+}
+
+@media handheld, only screen and (max-width: 775px) {
+    section#main {
+        float: none;
+    }
+}
+
+@media handheld, only screen and (max-width: 505px) {
+}
+
+/** COMMENTS **/
+
+.comments-template {
+	font-size: 1em;
+	color: gray;	
+	}
+
+
+/** SIDEBAR **/
+
+#sidebar_content {
+	float: right;
+	margin-right: 200px;
+	background-color: red;
+	width: 90px;
+
+}
+
+.sidebar_list ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px;
+}
 
 /** FOOTER **/
 footer {
@@ -208,7 +305,7 @@ footer {
     border-top: 3px solid #005774;
     background-color: #252525;
     width: 100%;
-    color: #FFFFFF;
+    color: white;
 }
 
 footer .col {
@@ -298,4 +395,6 @@ footer .col3 { width: 10em; }
     .marginb {
         margin-bottom: 0;
     }
+}	color: #0a4d6c;
+	text-decoration: none;
 }

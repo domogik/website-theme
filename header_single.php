@@ -30,10 +30,10 @@
     
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
     
-<div class="wrapper">
+<div class='wrapper'>
         
 <?php if (pll_current_language() == "fr" ) {  ?>
-    <a href='http://www.domogik.org' id='home'><img src="./images/domogik.png" />Domogik<div class='sub'>La domotique libre</div></a>
+    <a href='./home.php' id='home'><img src="./images/domogik.png" />Domogik<div class='sub'>La domotique libre</div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org">T&eacute;l&eacute;charger</a></li>
@@ -43,12 +43,6 @@
             <li><a href="http://wiki.domogik.org">Dev</a></li>
         </ul>
     </nav>
-
-    <section id="banner" role="banner">
-        <div class='wrapper'>
-            Domogik est une solution de domotique libre modulaire bas&eacute;e sur xPL.
-        </div>
-    </section> 
 
 <?php } ?>
 
@@ -64,17 +58,13 @@
         </ul>
     </nav>
             
-    <section id="banner" role="banner">
-        <div class="wrapper">
-            Domogik is a modular open source home automation solution based on xPL.
-        </div>
-    </section>                 
+
             
 <?php } ?>
             
 </div>
-
 </header>
     
-<div id="subbanner"></div>
+
     <li id="search"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+

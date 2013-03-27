@@ -1,12 +1,12 @@
-<div class="sidebar">
-<ul>
+
+
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
  
 <!-- CONTENU DE LA SIDEBAR -->
  
 <?php endif; ?>
-</ul>
-<div id="content" id="second">
+
+<div class="sidebar_list">
 
 	<li><h2>Categories</h2>
 		<ul>
@@ -28,7 +28,6 @@
 		<?php wp_meta(); ?><!-- n’est pas utilisé mais doit être présente dans le template. -->
  
  </div>
-	</li>
+ 
+
 	
-</ul>
-</div>
