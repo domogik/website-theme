@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: v\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-03-27 12:18:08+0000\n"
+"Last-Translator: mirelsol <marc@mirelsol.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:7
+#@ default
+msgid "Prot&eacute;g&eacute; par mot de passe"
+msgstr ""
+
+#: comments.php:8
+#@ default
+msgid "Entrer le mot de passe pour voir les commentaires"
+msgstr ""
+
+#: comments.php:32
+#@ default
+msgid "le"
+msgstr ""
+
+#: comments.php:32
+#@ default
+msgid "&agrave;"
+msgstr ""
+
+#: comments.php:32
+#@ default
+msgid "Said&#58;"
+msgstr ""
+
+#: comments.php:34
+#@ default
+msgid "Votre commentaire est en cours de mod&eacute;ration"
+msgstr ""
+
+#: comments.php:89
+#@ default
+msgid "Vous pouvez utiliser ces tags&#58;"
+msgstr ""
+
+#: header.php:6
+#: header_single.php:6
+#: save/header_bkup.php:5
+#@ default
+msgid "Not Found"
+msgstr ""
+
+#: home.php:8
+#@ domogik_v1
+msgid "Multi-technology"
+msgstr "Multi-technologies"
+
+#: home.php:9
+#@ domogik_v1
+msgid "Domogik evolves with the latest technologies"
+msgstr "Domogik évolue avec les dernières technologies"
+
+#: home.php:12
+#@ domogik_v1
+msgid "Web interface"
+msgstr "Interface web"
+
+#: home.php:13
+#@ domogik_v1
+msgid "Web user interface"
+msgstr "Interface utilisateur web"
+
+#: home.php:16
+#@ domogik_v1
+msgid "Fully customizable"
+msgstr "Adapté à vos besoins"
+
+#: home.php:17
+#@ domogik_v1
+msgid "With the documented API it becomes easy to modify, develop your own plugin or interface"
+msgstr "Grâce à une API documentée il est facile de modifier ou de développer son propre plugin ou sa propre interface"
+
+#: home.php:58
+#: home.php:97
+#@ domogik_v1
+msgid "View all posts"
+msgstr "Voir tous les articles"
+
+#: save/home_bkup.php:57
+#: save/home_bkup.php:96
+#@ domogik_v1
+msgid "view_all_posts"
+msgstr ""
+
+#: single.php:12
+#@ domogik_v1
+msgid "edit"
+msgstr ""
+
+#: single.php:29
+#@ domogik_v1
+msgid "next_page"
+msgstr ""
+
