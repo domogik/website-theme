@@ -8,7 +8,7 @@ Translations
 Ajout d'une nouvelle langue :
 -----------------------------
 
-* dans l'admin de WP aller dans "Outils - Localisation" puis cliquer sur "Thèmes" et "Ajouter une nouvelle langue"
+* dans l'admin de WP aller dans "Outils - Localisation" puis cliquer sur "Thèmes" et "Ajouter une nouvelle langue" et vérifier que le fichier créé (".po") est bien dans le sous-répertoire "languages"
 
 * faire les adaptations dans home.php
 
