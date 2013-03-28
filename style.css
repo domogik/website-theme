@@ -141,7 +141,7 @@ nav#languages ul li.separator:after {
 
 section#content_home {
     font-size: 1.4em; /* 14px */
-    background: #ffffff url("./images/grid.png") top center no-repeat;
+
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }
@@ -257,7 +257,6 @@ text-decoration: underline;
 	text-align: justify;
 	padding: 1em;
     font-size: 1.4em; /* 14px */
-    background: #ffffff url("./images/grid.png") top left repeat;
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 	margin-left: 250px;	
