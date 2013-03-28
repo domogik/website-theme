@@ -26,7 +26,7 @@
 <?php endwhile; ?>
 
 	<div class="navigation">
-	<?php posts_nav_link(pll__('next_page'),('previous_page')); ?>
+	<?php posts_nav_link(__('Next page', 'domogik_v1'), __('Previous page', 'domogik_v1')); ?>
 	</div>
 
 <?php endif; ?>

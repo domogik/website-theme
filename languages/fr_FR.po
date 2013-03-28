@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-28 19:43:03+0000\n"
+"PO-Revision-Date: 2013-03-28 20:01:34+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,16 +20,6 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: comments.php:7
-#@ default
-msgid "Prot&eacute;g&eacute; par mot de passe"
-msgstr ""
-
-#: comments.php:8
-#@ default
-msgid "Entrer le mot de passe pour voir les commentaires"
-msgstr ""
-
 #: comments.php:32
 #@ default
 msgid "le"
@@ -43,16 +33,6 @@ msgstr ""
 #: comments.php:32
 #@ default
 msgid "Said&#58;"
-msgstr ""
-
-#: comments.php:34
-#@ default
-msgid "Votre commentaire est en cours de mod&eacute;ration"
-msgstr ""
-
-#: comments.php:89
-#@ default
-msgid "Vous pouvez utiliser ces tags&#58;"
 msgstr ""
 
 #: header.php:6
@@ -100,11 +80,6 @@ msgstr "Voir tous les articles"
 #: single.php:12
 #@ domogik_v1
 msgid "edit"
-msgstr ""
-
-#: single.php:29
-#@ domogik_v1
-msgid "next_page"
 msgstr ""
 
 #: header.php:35
@@ -157,4 +132,34 @@ msgstr "Liste de diffusion générale"
 #@ domogik_v1
 msgid "Developers mailing-list"
 msgstr "Liste de diffusion développeurs"
+
+#: comments.php:7
+#@ domogik_v1
+msgid "Protected by password"
+msgstr "Protégé par mot de passe"
+
+#: comments.php:8
+#@ domogik_v1
+msgid "Enter the password to see the comments"
+msgstr "Entrez le mot de passe pour voir les commentaires"
+
+#: comments.php:34
+#@ domogik_v1
+msgid "Your comment is awaiting moderation"
+msgstr "Votre commentaire est en cours d'approbation"
+
+#: comments.php:89
+#@ domogik_v1
+msgid "You can use these tags"
+msgstr "Vous pouvez utiliser ces tags"
+
+#: single.php:29
+#@ domogik_v1
+msgid "Next page"
+msgstr "Page suivante"
+
+#: single.php:29
+#@ domogik_v1
+msgid "Previous page"
+msgstr "Page précédente"
 

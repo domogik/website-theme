@@ -4,8 +4,8 @@ if (!empty($post->post_password)) { // if there's a password
 	if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
 ?>
 
-<h2><?php _e('Prot&eacute;g&eacute; par mot de passe'); ?></h2>
-<p><?php _e('Entrer le mot de passe pour voir les commentaires'); ?></p>
+<h2><?php __('Protected by password', 'domogik_v1'); ?></h2>
+<p><?php __('Enter the password to see the comments', 'domogik_v1'); ?></p>
 
 <?php return;
 	}
@@ -31,7 +31,7 @@ $oddcomment = 'alt';
 <div class="commentmetadata">
 <strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('Said&#58;'); ?> <?php edit_comment_link('Edit Comment','',''); ?>
  		<?php if ($comment->comment_approved == '0') : ?>
-		<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
+		<em><?php __('Your comment is awaiting moderation', 'domogik_v1'); ?></em>
  		<?php endif; ?>
 </div>
 
@@ -86,7 +86,7 @@ $oddcomment = 'alt';
 
 <?php endif; ?>
 
-<!--<p><small><strong>XHTML:</strong> <?php _e('Vous pouvez utiliser ces tags&#58;'); ?> <?php echo allowed_tags(); ?></small></p>-->
+<!--<p><small><strong>XHTML:</strong> <?php __('You can use these tags', 'domogik_v1'); ?> <?php echo allowed_tags(); ?></small></p>-->
 
 <p><textarea name="comment" id="comment" cols="60" rows="10" tabindex="4"></textarea></p>
 
