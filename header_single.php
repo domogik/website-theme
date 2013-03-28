@@ -31,7 +31,7 @@
 <div class='wrapper'>
         
 <?php if (pll_current_language() == "fr" ) {  ?>
-    <a href='./home.php' id='home'><img src="./images/domogik.png" />Domogik<div class='sub'>La domotique libre</div></a>
+    <a href="<?php bloginfo('url'); ?>" id='home'><img src="./images/domogik.png" />Domogik<div class='sub'>La domotique libre</div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org">T&eacute;l&eacute;charger</a></li>
