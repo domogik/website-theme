@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html5>
 <!-- This page is included in all pages but in the home page -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
@@ -29,18 +29,18 @@
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
     
 <div class='wrapper'>
-    <a href="<?php bloginfo('url'); ?>" id='home'><img src="./images/domogik.png" />Domogik<div class='sub'><?php echo __('Free Home Automation', 'domogik_v1'); ?></div></a>
+    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', wp_get_theme()->get('TextDomain')); ?></div></a>
     <nav id='primary'>
         <ul>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', 'domogik_v1'); ?></a></li>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', 'domogik_v1'); ?></a></li>
-            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', 'domogik_v1'); ?></a></li>
-            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', 'domogik_v1'); ?></a></li>
-            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', wp_get_theme()->get('TextDomain')); ?></a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', wp_get_theme()->get('TextDomain')); ?></a></li>
+            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', wp_get_theme()->get('TextDomain')); ?></a></li>
+            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', wp_get_theme()->get('TextDomain')); ?></a></li>
+            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', wp_get_theme()->get('TextDomain')); ?></a></li>
         </ul>
     </nav>
 </div>
 </header>
 
-    <li id="search"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+    <li id="searchform"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
 

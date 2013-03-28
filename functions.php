@@ -26,7 +26,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 )
 add_action('after_setup_theme', 'setup');
 
 function setup() {
-    load_theme_textdomain('domogik_v1', get_template_directory() . '/languages');
+    load_theme_textdomain(wp_get_theme()->get('TextDomain'), get_template_directory() . '/languages');
 }
 ?>
 
