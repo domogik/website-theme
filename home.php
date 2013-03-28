@@ -17,25 +17,20 @@
             </div>
         </section>
         
-   <div id="searchform">
-   <li><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
-   </div>     
-
-        
+    <div id="searchform">
+        <li><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+    </div>
 
     <section id='second'><!-- last posts area -->
         <div class="col" id='col_left'>
+            <h2>
+                <?php
+                $news_cat_id = get_category_by_slug('news-'.pll_current_language())->term_id;
+                echo(get_cat_name($news_cat_id)); 
+                ?>
+            </h2> 
             <?php
-            if (pll_current_language() == "fr") {
-                $news_cat_id = 17;
-            }
-            else if (pll_current_language() == "en") {
-                $news_cat_id = 20;
-            }
-            ?>            
             
-            <h2><?php echo(get_cat_name($news_cat_id)); ?></h2> 
-            <?php
             $news_args = array(
                 'posts_per_page'  => 5,
                 'offset'          => 0,
@@ -65,16 +60,12 @@
 
     <section id='second'>
         <div class="col" id='col_middle'>
-            <?php
-            if (pll_current_language() == "fr") {
-                $blog_cat_id = 21;
-            }
-            else if (pll_current_language() == "en") {
-                $blog_cat_id = 22;
-            }
-            ?>            
-            
-            <h2><?php echo(get_cat_name($blog_cat_id)); ?></h2> 
+            <h2>
+                <?php
+                $blog_cat_id = get_category_by_slug('blog-'.pll_current_language())->term_id;
+                echo(get_cat_name($blog_cat_id)); 
+                ?>
+            </h2> 
             <?php
             $blog_args = array(
                 'posts_per_page'  => 5,
