@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: v\n"
+"Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-28 16:56:54+0000\n"
+"PO-Revision-Date: 2013-03-28 19:43:03+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -108,31 +108,37 @@ msgid "next_page"
 msgstr ""
 
 #: header.php:35
+#: header_single.php:35
 #@ domogik_v1
 msgid "Download"
 msgstr "Télécharger"
 
 #: header.php:36
+#: header_single.php:36
 #@ domogik_v1
 msgid "Documentation"
 msgstr "Documentation"
 
 #: header.php:37
+#: header_single.php:37
 #@ domogik_v1
 msgid "Forum"
 msgstr "Forum"
 
 #: header.php:38
+#: header_single.php:38
 #@ domogik_v1
 msgid "Packages"
 msgstr "Paquets"
 
 #: header.php:39
+#: header_single.php:39
 #@ domogik_v1
 msgid "Dev"
 msgstr "Dev"
 
 #: header.php:32
+#: header_single.php:32
 #@ domogik_v1
 msgid "Free Home Automation"
 msgstr "Solution libre de domotique"
@@ -141,4 +147,14 @@ msgstr "Solution libre de domotique"
 #@ domogik_v1
 msgid "Domogik is a modular open source home automation solution based on xPL."
 msgstr "Domogik est un logiciel libre de domotique basé sur le protocole xPL."
+
+#: footer.php:5
+#@ domogik_v1
+msgid "General mailing-list"
+msgstr "Liste de diffusion générale"
+
+#: footer.php:7
+#@ domogik_v1
+msgid "Developers mailing-list"
+msgstr "Liste de diffusion développeurs"
 
