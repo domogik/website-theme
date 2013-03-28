@@ -29,14 +29,14 @@
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
     
 <div class='wrapper'>
-    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', wp_get_theme()->get('TextDomain')); ?></div></a>
+    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', 'domogik_v1'); ?></div></a>
     <nav id='primary'>
         <ul>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', wp_get_theme()->get('TextDomain')); ?></a></li>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', wp_get_theme()->get('TextDomain')); ?></a></li>
-            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', wp_get_theme()->get('TextDomain')); ?></a></li>
-            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', wp_get_theme()->get('TextDomain')); ?></a></li>
-            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', wp_get_theme()->get('TextDomain')); ?></a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', 'domogik_v1'); ?></a></li>
+            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', 'domogik_v1'); ?></a></li>
         </ul>
     </nav>
 </div>

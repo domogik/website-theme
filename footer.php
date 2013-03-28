@@ -2,9 +2,9 @@
 <footer role="contentinfo">
     <div class='wrapper'>
         <div class="col col1">
-            General Mailing list:<br />
+            <?php echo __('General mailing-list', 'domogik_v1'); ?>:<br />
             <div class="mailing marginb"><a href="mailto:domogik-general@lists.labs.libre-entreprise.org">domogik-general@lists.labs.libre-entreprise.org</a></div>
-            Developers Mailing list:<br />
+            <?php echo __('Developers mailing-list', 'domogik_v1'); ?>:<br />
             <div class="mailing marginb"><a href="mailto:domogik-developers@lists.labs.libre-entreprise.org">domogik-developers@lists.labs.libre-entreprise.org</a></div>
         </div>
         <div class="col col2">
@@ -12,7 +12,7 @@
             <div class="twitter">@domogik</div>
         </div>
         <div class="col col3">
-            Domogik&copy;2012
+            Domogik&copy;2013
         </div>
     </div>
 </footer>
