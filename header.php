@@ -29,7 +29,7 @@
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
 
 <div class="wrapper">
-    <a href='http://www.domogik.org' id='home'>Domogik<div><?php echo __('Free Home Automation', 'domogik_v1'); ?></div></a>
+    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div><?php echo __('Free Home Automation', 'domogik_v1'); ?></div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', 'domogik_v1'); ?></a></li>
