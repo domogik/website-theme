@@ -10,7 +10,7 @@
     <meta name="generator" content="Bluefish 2.0.3" />
     <!-- leave this for stats -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 3.0" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /><?php wp_head(); ?>
@@ -18,8 +18,8 @@
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php //comments_popup_script(); // off by default ?>
     <?php wp_head(); ?>
-     <link type="text/css" href="css/main.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="css/home.css" rel="stylesheet" media="all" />
+    <!--  <link type="text/css" href="css/style.css" rel="stylesheet" media="all" />-->
+
 </head>
 <body>
 
@@ -33,7 +33,7 @@
 <div class="wrapper">
         
 <?php if (pll_current_language() == "fr" ) {  ?>
-    <a href='http://www.domogik.org' id='home'><img src="./images/domogik.png" />Domogik<div class='sub'>La domotique libre</div></a>
+    <a href='http://www.domogik.org' id='home'>Domogik<div class='sub'>La domotique libre</div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org">T&eacute;l&eacute;charger</a></li>
@@ -53,7 +53,7 @@
 <?php } ?>
 
 <?php if (pll_current_language() == "en" ) {  ?>
-    <a href='http://www.domogik.org' id='home'><img src="images/domogik.png" />Domogik<div class='sub'>Free Home Automation</div></a>
+    <a href='http://www.domogik.org' id='home'>Domogik<div>Free Home Automation</div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org">Download</a></li>
@@ -77,4 +77,4 @@
 </header>
     
 <div id="subbanner"></div>
-    <li id="search"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+

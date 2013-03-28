@@ -105,10 +105,18 @@ nav#languages ul li.separator:after {
 	list-style: none;
 }
 
-#search{
-	margin-left: 875px;
-	list-style-type: none;
+#searchform div{
+	text-align: right;
+	height: 20px;
+	width: 960px;
+	margin: 0px;
+
 	}
+	
+#searchform li{
+	text-align: right;	
+	list-style-type: none;	
+		}
 
 /** BANNER **/
 
@@ -133,7 +141,7 @@ nav#languages ul li.separator:after {
 
 section#content_home {
     font-size: 1.4em; /* 14px */
-    background: #ffffff url("../images/grid.png") top center no-repeat;
+    background: #ffffff url("./images/grid.png") top center no-repeat;
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }

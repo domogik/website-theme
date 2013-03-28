@@ -1,6 +1,5 @@
 <?php get_header(); ?> <!-- ouvrir header.php -->
 
-
     <section id='content_home' role='main' class='wrapper'>
     
         <section id='first'>
@@ -17,6 +16,11 @@
                 <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', 'domogik_v1'); ?></p></a>
             </div>
         </section>
+        
+   <div id="searchform">
+   <li><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+   </div>     
+
         
 
     <section id='second'><!-- last posts area -->
@@ -98,7 +102,7 @@
         </div>
             
         <div class="col" id='col_right'>
-            <img src="./images/twitter.png" /><h2>Twitter</h2>
+            <h2>Twitter</h2>
         </div>
         <div style="clear: both"></div>
         
