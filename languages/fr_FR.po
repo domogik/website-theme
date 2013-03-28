@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: v\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-27 12:18:08+0000\n"
+"PO-Revision-Date: 2013-03-28 16:56:54+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -57,52 +57,45 @@ msgstr ""
 
 #: header.php:6
 #: header_single.php:6
-#: save/header_bkup.php:5
 #@ default
 msgid "Not Found"
 msgstr ""
 
-#: home.php:8
+#: home.php:7
 #@ domogik_v1
 msgid "Multi-technology"
 msgstr "Multi-technologies"
 
-#: home.php:9
+#: home.php:8
 #@ domogik_v1
 msgid "Domogik evolves with the latest technologies"
 msgstr "Domogik évolue avec les dernières technologies"
 
-#: home.php:12
+#: home.php:11
 #@ domogik_v1
 msgid "Web interface"
 msgstr "Interface web"
 
-#: home.php:13
+#: home.php:12
 #@ domogik_v1
 msgid "Web user interface"
 msgstr "Interface utilisateur web"
 
-#: home.php:16
+#: home.php:15
 #@ domogik_v1
 msgid "Fully customizable"
 msgstr "Adapté à vos besoins"
 
-#: home.php:17
+#: home.php:16
 #@ domogik_v1
 msgid "With the documented API it becomes easy to modify, develop your own plugin or interface"
 msgstr "Grâce à une API documentée il est facile de modifier ou de développer son propre plugin ou sa propre interface"
 
-#: home.php:58
-#: home.php:97
+#: home.php:57
+#: home.php:92
 #@ domogik_v1
 msgid "View all posts"
 msgstr "Voir tous les articles"
-
-#: save/home_bkup.php:57
-#: save/home_bkup.php:96
-#@ domogik_v1
-msgid "view_all_posts"
-msgstr ""
 
 #: single.php:12
 #@ domogik_v1
@@ -113,4 +106,39 @@ msgstr ""
 #@ domogik_v1
 msgid "next_page"
 msgstr ""
+
+#: header.php:35
+#@ domogik_v1
+msgid "Download"
+msgstr "Télécharger"
+
+#: header.php:36
+#@ domogik_v1
+msgid "Documentation"
+msgstr "Documentation"
+
+#: header.php:37
+#@ domogik_v1
+msgid "Forum"
+msgstr "Forum"
+
+#: header.php:38
+#@ domogik_v1
+msgid "Packages"
+msgstr "Paquets"
+
+#: header.php:39
+#@ domogik_v1
+msgid "Dev"
+msgstr "Dev"
+
+#: header.php:32
+#@ domogik_v1
+msgid "Free Home Automation"
+msgstr "Solution libre de domotique"
+
+#: header.php:45
+#@ domogik_v1
+msgid "Domogik is a modular open source home automation solution based on xPL."
+msgstr "Domogik est un logiciel libre de domotique basé sur le protocole xPL."
 
