@@ -18,8 +18,6 @@
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php //comments_popup_script(); // off by default ?>
     <?php wp_head(); ?>
-    <!--  <link type="text/css" href="css/style.css" rel="stylesheet" media="all" />-->
-
 </head>
 <body>
 
@@ -29,49 +27,24 @@
 </div>
     
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
-    
+
 <div class="wrapper">
-        
-<?php if (pll_current_language() == "fr" ) {  ?>
-    <a href='http://www.domogik.org' id='home'>Domogik<div class='sub'>La domotique libre</div></a>
+    <a href='http://www.domogik.org' id='home'>Domogik<div><?php echo __('Free Home Automation', 'domogik_v1'); ?></div></a>
     <nav id='primary'>
         <ul>
-            <li class="separator"><a href="http://docs.domogik.org">T&eacute;l&eacute;charger</a></li>
-            <li class="separator"><a href="http://docs.domogik.org">Documentation</a></li>
-            <li class="separator"><a href="http://forum.domogik.org">Forum</a></li>
-            <li class="separator"><a href="http://repo.domogik.org/package">Packages</a></li>
-            <li><a href="http://wiki.domogik.org">Dev</a></li>
-        </ul>
-    </nav>
-
-    <section id="banner" role="banner">
-        <div class='wrapper'>
-            Domogik est une solution de domotique libre modulaire bas&eacute;e sur xPL.
-        </div>
-    </section> 
-
-<?php } ?>
-
-<?php if (pll_current_language() == "en" ) {  ?>
-    <a href='http://www.domogik.org' id='home'>Domogik<div>Free Home Automation</div></a>
-    <nav id='primary'>
-        <ul>
-            <li class="separator"><a href="http://docs.domogik.org">Download</a></li>
-            <li class="separator"><a href="http://docs.domogik.org">Documentation</a></li>
-            <li class="separator"><a href="http://forum.domogik.org">Forum</a></li>
-            <li class="separator"><a href="http://repo.domogik.org/package">Packages</a></li>
-            <li><a href="http://wiki.domogik.org">Dev</a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', 'domogik_v1'); ?></a></li>
+            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', 'domogik_v1'); ?></a></li>
+            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', 'domogik_v1'); ?></a></li>
         </ul>
     </nav>
             
     <section id="banner" role="banner">
         <div class="wrapper">
-            Domogik is a modular open source home automation solution based on xPL.
+            <?php echo __('Domogik is a modular open source home automation solution based on xPL.', 'domogik_v1'); ?>
         </div>
     </section>                 
-            
-<?php } ?>
-            
 </div>
 
 </header>
