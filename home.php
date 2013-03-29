@@ -4,16 +4,16 @@
     
         <section id='first'>
             <div class="col" id="multitechno"><a href="/?page_id=228">
-                <h2><?php echo __('Multi-technology', 'domogik_v1'); ?></h2>
-                <p style="text-align:center;"><?php echo __('Domogik evolves with the latest technologies', 'domogik_v1'); ?></p></a>
+                <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
+                <p style="text-align:center;"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p></a>
             </div>
             <div class="col" id="html5"><a href="/?page_id=230">
-                <h2><?php echo __('Web interface', 'domogik_v1'); ?></h2>
-                <p style="text-align:center;"><?php echo __('Web user interface', 'domogik_v1'); ?></p></a>
+                <h2><?php echo __('Web interface', $MY_TEXTDOMAIN); ?></h2>
+                <p style="text-align:center;"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p></a>
             </div>
             <div class="col" id="opensource"><a href="/?page_id=197">
-                <h2><?php echo __('Fully customizable', 'domogik_v1'); ?></h2>
-                <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', 'domogik_v1'); ?></p></a>
+                <h2><?php echo __('Fully customizable', $MY_TEXTDOMAIN); ?></h2>
+                <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', $MY_TEXTDOMAIN); ?></p></a>
             </div>
         </section>
         
@@ -54,7 +54,7 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> "><?php echo __('View all posts', 'domogik_v1'); ?></a></div>
+            <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> "><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
         
 
@@ -89,7 +89,7 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> "><?php echo __('View all posts', 'domogik_v1'); ?></a></div>
+            <div class="voir_articles"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> "><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
             
         <div class="col" id='col_right'>

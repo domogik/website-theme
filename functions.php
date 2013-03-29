@@ -1,3 +1,4 @@
+<?php define( 'MY_TEXTDOMAIN', 'domogik_v1' ); ?>
 <?php
 if ( function_exists('register_sidebar') )
 register_sidebar();
