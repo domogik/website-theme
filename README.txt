@@ -1,5 +1,11 @@
-Translations
-============
+Commentaires des articles
+=========================
+
+- Par défaut les commentaires sont autorisés.
+- Pour les actualités, ils sont refusés (programmation dans 'single.php')
+
+Traductions
+===========
 
 - On utilise le plugin WordPress "codestyling" qui gère les traductions des chaines de caractères dans les fichiers ".php" par les fichiers ".po".
 - On utilise le plugin "polylang" pour la gestion des articles, catégories... dans plusieurs langues.
