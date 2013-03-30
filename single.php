@@ -7,9 +7,9 @@
             <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             
             <p class="postmetadata">
-            <?php the_time('j F Y') ?> par <?php the_author() ?> | 
-            Cat&eacute;gorie: <?php the_category(', ') ?> | 
-            <?php edit_post_link(pll__('edit'), ' &#124; ', '');  ?>
+            <?php the_time('j F Y') ?><?php echo __('by', $MY_TEXTDOMAIN); ?><?php the_author() ?> | 
+            <?php echo __('Category', $MY_TEXTDOMAIN); ?>:&nbsp;<?php the_category(', ') ?> | 
+            <?php echo __('Edit', $MY_TEXTDOMAIN); ?>
             </p>
 
             <div class="post_content">
