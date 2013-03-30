@@ -25,8 +25,6 @@ Ajout d'une nouvelle langue :
 * dans l'admin de WP, l'id de la catégorie (slug) doit commencer par la même chaine de caractères et se terminer par la
 langue : ex. news-fr, news-en
 
-single.php : delete l.18
-
 Ajout d'une nouvelle traduction
 -------------------------------
 
