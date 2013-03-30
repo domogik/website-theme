@@ -1,5 +1,7 @@
 <?php $MY_TEXTDOMAIN = 'domogik_v1'; ?>
 
+<?php ini_set('display_errors', 'On'); ?>
+
 <?php
 if ( function_exists('register_sidebar') )
 register_sidebar();
