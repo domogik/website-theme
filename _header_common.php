@@ -1,4 +1,4 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <!-- This page is included in all pages but in the home page -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
@@ -41,6 +41,3 @@
     </nav>
 </div>
 </header>
-
-    <li id="searchform"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
-

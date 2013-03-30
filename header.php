@@ -1,10 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<?php global $MY_TEXTDOMAIN; ?>
-
+<!DOCTYPE html>
+<!-- This page is included in all pages but in the home page -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
- 
     <title>
         <?php bloginfo('name') ?><?php if ( is_404() ) : ?> &raquo; <?php _e('Not Found') ?><?php elseif ( is_home() ) : ?> &raquo; <?php bloginfo('description') ?><?php else : ?><?php wp_title() ?><?php endif ?>
     </title>
@@ -13,7 +10,7 @@
     <meta name="generator" content="Bluefish 2.0.3" />
     <!-- leave this for stats -->
     <link rel="stylesheet" href="<?php echo(get_stylesheet_uri()); ?>" type="text/css" media="screen" />
-    <link rel="alternate" type="application/rss+xml" title="RSS 3.0" href="<?php bloginfo('rss2_url'); ?>" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /><?php wp_head(); ?>
@@ -30,9 +27,9 @@
 </div>
     
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>    
-
-<div class="wrapper">
-    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
+    
+<div class='wrapper'>
+    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
@@ -42,15 +39,8 @@
             <li><a href="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></a></li>
         </ul>
     </nav>
-            
-    <section id="banner" role="banner">
-        <div class="wrapper">
-            <?php echo __('Domogik is a modular open source home automation solution based on xPL.', $MY_TEXTDOMAIN); ?>
-        </div>
-    </section>                 
 </div>
-
 </header>
-    
-<div id="subbanner"></div>
+
+    <li id="searchform"><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
 

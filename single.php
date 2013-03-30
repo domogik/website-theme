@@ -1,4 +1,4 @@
-<?php include ('header_single.php'); ?><!-- To have a header be different on a different template page  -->
+<?php include ('_header_common.php'); ?><!-- To have a header be different on a different template page  -->
 
 <div id="content">
 	<div id="main_content"><!-- main text area -->

@@ -272,6 +272,7 @@ text-decoration: underline;
     font-size: 1.4em; /* 14px */
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
+    margin-top: 20px;
 	margin-left: 250px;	
 	margin-right: 250px;
 	}
