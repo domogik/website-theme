@@ -15,7 +15,8 @@
             <div class="post_content">
                 <?php the_content(); ?>
                 <div class="comments-template">
-                    <?php if (!in_category('20')) comments_template(); ?><!-- exclude comments on category News -->
+                    <!-- exclude comments for News category -->
+                    <?php if (!in_category('news-'.pll_current_language())) comments_template(); ?>
                 </div>
             </div>
             <?php endif; ?>
