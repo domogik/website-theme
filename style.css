@@ -70,10 +70,11 @@ header#header #home {
 
 nav ul li {
     display: inline-block;
+    font-size: 0.9em;
 }
 
 header#header nav ul li.separator:after {
-    content: "/";
+    content: "|";
 }
 header#header nav#primary {
     font-size: 1.8em; /* = 18px */
@@ -110,12 +111,13 @@ nav#languages ul li a:hover {
     color: #005774;  
 }
 nav#languages ul li.separator:after {
-    content: "/";
+    content: "|";
 }
 
 .lang-item {
 	display: inline;
 	list-style: none;
+	padding-right: 8px;
 }
 
 #searchform div{
@@ -123,7 +125,6 @@ nav#languages ul li.separator:after {
 	height: 20px;
 	width: 960px;
 	margin: 0px;
-
 	}
 	
 #searchform li{

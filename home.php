@@ -18,7 +18,7 @@
         </section>
         
     <div id="searchform">
-        <li><?php include(TEMPLATEPATH . '/searchform.php'); ?></li>
+        <?php include(TEMPLATEPATH . '/searchform.php'); ?>
     </div>
 
     <section id='second'><!-- last posts area -->
@@ -54,7 +54,7 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> "><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
+            <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
         
 
@@ -89,7 +89,7 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> "><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
+            <div class="voir_articles"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
             
         <div class="col" id='col_right'>
