@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-01 15:49:11+0000\n"
+"PO-Revision-Date: 2013-04-01 21:35:36+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -131,17 +131,17 @@ msgstr "Votre commentaire est en cours d'approbation"
 msgid "You can use these tags"
 msgstr "Vous pouvez utiliser ces tags"
 
-#: single.php:10
+#: single.php:9
 #@ domogik_v1
 msgid "by"
 msgstr "Par"
 
-#: single.php:11
+#: single.php:10
 #@ domogik_v1
 msgid "Category"
 msgstr "Catégorie"
 
-#: single.php:12
+#: single.php:11
 #@ domogik_v1
 msgid "Edit"
 msgstr "Modifier"
@@ -161,4 +161,19 @@ msgstr "Domogik est livré en standard avec une interface web afin que vous puis
 #@ domogik_v1
 msgid "Domogik evolves with the latest technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). Other technologies are coming soon (zwave, rfxcom...)."
 msgstr "Domogik évolue avec les dernières technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). D'autres technologies sont en cours de développement (zwave, rfxcom...)."
+
+#: twitter.php:14
+#@ default
+msgid "No tweet."
+msgstr ""
+
+#: sidebar.php:2
+#@ domogik_v1
+msgid "Categories"
+msgstr "Catégories"
+
+#: sidebar.php:6
+#@ domogik_v1
+msgid "Archives"
+msgstr "Archives"
 
