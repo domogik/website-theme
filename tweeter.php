@@ -18,8 +18,8 @@ $rss_items = $rss->get_items(0, $maxitems);
     foreach ($rss_items as $item) :
     ?>
         <li>
-            <a href='<?php echo $item->get_permalink(); ?>'>
-            <?php echo $item->get_title(); ?>
+            <a href='<?php echo($item->get_permalink()); ?>'>
+            <?php echo($item->get_title()); ?>
             </a>
         </li>
     <?php
