@@ -94,6 +94,7 @@
             
         <div class="col" id='col_right'>
             <h2>Twitter</h2>
+            <?php include('tweeter.php') ?>
         </div>
         <div style="clear: both"></div>
         
