@@ -1,35 +1,33 @@
-<?php include ('_header_common.php'); ?>
+<?php include('header.php'); ?>
 
-<div id="content">
-    <div id="main_content"><!-- main text area -->
-        <div class="post" id="post-<?php the_ID(); ?>">
-            <?php if(have_posts()) : the_post(); ?>
-            <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            
-            <p class="postmetadata">
-            <?php the_time('j F Y') ?>&nbsp;<?php _e('by', $MY_TEXTDOMAIN); ?>&nbsp;<?php the_author() ?> | 
-            <?php echo __('Category', $MY_TEXTDOMAIN); ?>:&nbsp;<?php the_category(', ') ?> | 
-            <?php edit_post_link(__('Edit', $MY_TEXTDOMAIN), ' &#124; ', ''); ?>
-            </p>
+<div id='content' role='main'>
+    <div class="col" id='post'>
+        <?php if(have_posts()) : the_post(); ?>
+        <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+        
+        <p class="postmetadata">
+        <?php the_time('j F Y') ?>&nbsp;<?php _e('by', $MY_TEXTDOMAIN); ?>&nbsp;<?php the_author() ?> | 
+        <?php echo __('Category', $MY_TEXTDOMAIN); ?>:&nbsp;<?php the_category(', ') ?> | 
+        <?php edit_post_link(__('Edit', $MY_TEXTDOMAIN), ' &#124; ', ''); ?>
+        </p>
 
-            <div class="post_content">
-                <?php the_content(); ?>
-                <div class="comments-template">
-                    <!-- exclude comments for News category -->
-                    <?php if (!in_category('news-'.pll_current_language())) comments_template(); ?>
-                </div>
+        <div class="post_content">
+            <?php the_content(); ?>
+            <div class="comments-template">
+                <!-- exclude comments for News category -->
+                <?php if (!in_category('news-'.pll_current_language())) comments_template(); ?>
             </div>
-            <?php endif; ?>
         </div>
+        <?php endif; ?> 
     </div>
 
-    <div id="sidebar_content"> <!-- sidebar area -->
-        <?php get_sidebar(); ?>
-    </div>
+    <?php get_sidebar(); ?>
 
-</div><!-- end of div content -->
+    <div style="clear: both"></div>
+</div>
 
-<?php get_footer(); ?>
+<?php include('footer.php'); ?>
 
 </body>
 </html>
+
