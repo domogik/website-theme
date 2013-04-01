@@ -101,10 +101,6 @@
     </section>
 </section>
 
-<div class="navigation"><!-- links to previous and next pages -->
-	<?php posts_nav_link(' - ','page suivante','page pr&eacute;c&eacute;dente'); ?>
-</div>
-
 </div>
 
 <?php get_footer(); ?>
