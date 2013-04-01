@@ -24,7 +24,7 @@
 <header id='header'>    
 <div class='wrapper'>
     <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
-    <div id="langages">
+    <div id="languages">
         <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0));?>
     </div>
     <nav id='primary'>
