@@ -25,7 +25,7 @@
     
     <section id='second'><!-- last posts area -->
         <div class="col" id='col_left'>
-            <h2>
+            <h2>|
                 <?php
                 $news_cat_id = get_category_by_slug('news-'.pll_current_language())->term_id;
                 echo(get_cat_name($news_cat_id)); 
@@ -60,7 +60,7 @@
         </div>
 
         <div class="col" id='col_middle'>
-            <h2>
+            <h2>|
                 <?php
                 $blog_cat_id = get_category_by_slug('blog-'.pll_current_language())->term_id;
                 echo(get_cat_name($blog_cat_id)); 
@@ -93,7 +93,7 @@
         </div>
             
         <div class="col" id='col_right'>
-            <h2>Twitter</h2>
+            <h2>|Twitter</h2>
             <?php include('tweeter.php') ?>
         </div>
         <div style="clear: both"></div>
