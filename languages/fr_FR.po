@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-30 15:03:23+0000\n"
+"PO-Revision-Date: 2013-04-01 08:28:54+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -77,38 +77,38 @@ msgstr "Grâce à une API documentée il est facile de modifier ou de développe
 msgid "View all posts"
 msgstr "Voir tous les articles"
 
-#: _header_common.php:35
-#: header.php:35
+#: _header_common.php:34
+#: header.php:34
 #@ domogik_v1
 msgid "Download"
 msgstr "Télécharger"
 
-#: _header_common.php:36
-#: header.php:36
+#: _header_common.php:35
+#: header.php:35
 #@ domogik_v1
 msgid "Documentation"
 msgstr "Documentation"
 
-#: _header_common.php:37
-#: header.php:37
+#: _header_common.php:36
+#: header.php:36
 #@ domogik_v1
 msgid "Forum"
 msgstr "Forum"
 
-#: _header_common.php:38
-#: header.php:38
+#: _header_common.php:37
+#: header.php:37
 #@ domogik_v1
 msgid "Packages"
 msgstr "Paquets"
 
-#: _header_common.php:39
-#: header.php:39
+#: _header_common.php:38
+#: header.php:38
 #@ domogik_v1
 msgid "Dev"
 msgstr "Dev"
 
-#: _header_common.php:32
-#: header.php:32
+#: _header_common.php:26
+#: header.php:28
 #@ domogik_v1
 msgid "Free Home Automation"
 msgstr "Solution libre de domotique"
@@ -162,4 +162,9 @@ msgstr "Catégorie"
 #@ domogik_v1
 msgid "Edit"
 msgstr "Modifier"
+
+#: searchform.php:4
+#@ domogik_v1
+msgid "Search"
+msgstr "Rechercher"
 
