@@ -17,10 +17,6 @@
         </div>
     </section>
     
-<div id="searchform">
-    <?php include(TEMPLATEPATH . '/searchform.php'); ?>
-</div>
-
     <section id='second'><!-- last posts area -->
         <div class="col" id='col_left'>
             <h2>

@@ -7,7 +7,7 @@
     </title>
  
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-    <meta name="generator" content="Bluefish 2.0.3" />
+    <meta name="generator" content="Bluefish 2.2.4" />
     <!-- leave this for stats -->
     <link rel="stylesheet" href="<?php echo(get_stylesheet_uri()); ?>" type="text/css" media="screen" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
@@ -36,6 +36,14 @@
             <li><a href="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></a></li>
         </ul>
     </nav>
+    <div id="searchform">
+        <form method="get" action="<?php bloginfo('home'); ?>/">
+	    <div>
+		   <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" />
+		   <input type="submit" id="searchsubmit" value="<?php _e("Search", $MY_TEXTDOMAIN); ?>" />
+	    </div>
+        </form>
+    </div>
 </div>
 </header>
   
