@@ -1,25 +1,25 @@
 <?php include('header_home.php'); ?> 
 
-    <section id='content_home' role='main' class='wrapper'>
+<section id='content_home' role='main' class='wrapper'>
+
+    <section id='first'>
+        <div class="col" id="multitechno"><a href="/?page_id=228">
+            <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
+            <p style="text-align:center;"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p></a>
+        </div>
+        <div class="col" id="html5"><a href="/?page_id=230">
+            <h2><?php echo __('Web interface', $MY_TEXTDOMAIN); ?></h2>
+            <p style="text-align:center;"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p></a>
+        </div>
+        <div class="col" id="opensource"><a href="/?page_id=197">
+            <h2><?php echo __('Fully customizable', $MY_TEXTDOMAIN); ?></h2>
+            <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', $MY_TEXTDOMAIN); ?></p></a>
+        </div>
+    </section>
     
-        <section id='first'>
-            <div class="col" id="multitechno"><a href="/?page_id=228">
-                <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
-                <p style="text-align:center;"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p></a>
-            </div>
-            <div class="col" id="html5"><a href="/?page_id=230">
-                <h2><?php echo __('Web interface', $MY_TEXTDOMAIN); ?></h2>
-                <p style="text-align:center;"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p></a>
-            </div>
-            <div class="col" id="opensource"><a href="/?page_id=197">
-                <h2><?php echo __('Fully customizable', $MY_TEXTDOMAIN); ?></h2>
-                <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', $MY_TEXTDOMAIN); ?></p></a>
-            </div>
-        </section>
-        
-    <div id="searchform">
-        <?php include(TEMPLATEPATH . '/searchform.php'); ?>
-    </div>
+<div id="searchform">
+    <?php include(TEMPLATEPATH . '/searchform.php'); ?>
+</div>
 
     <section id='second'><!-- last posts area -->
         <div class="col" id='col_left'>
@@ -56,9 +56,7 @@
             ?>
             <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
-        
 
-    <section id='second'>
         <div class="col" id='col_middle'>
             <h2>
                 <?php
@@ -98,9 +96,6 @@
         <div style="clear: both"></div>
         
     </section>
-       
-   </section>
-   
 </section>
 
 <div class="navigation"><!-- links to previous and next pages -->
@@ -110,7 +105,6 @@
 </div>
 
 <?php get_footer(); ?>
-
 
 </body>
 </html>
