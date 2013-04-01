@@ -3,17 +3,23 @@
 <section id='content_home' role='main' class='wrapper'>
 
     <section id='first'>
-        <div class="col" id="multitechno"><a href="/?page_id=228">
-            <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
-            <p style="text-align:center;"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p></a>
+        <div class="col" id="multitechno">
+            <!--a href="/?page_id=228"-->
+                <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
+                <p class="description"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p>
+            <!--/a-->
         </div>
-        <div class="col" id="html5"><a href="/?page_id=230">
+        <div class="col" id="html5">
+        <!--a href="/?page_id=230"-->
             <h2><?php echo __('Web interface', $MY_TEXTDOMAIN); ?></h2>
-            <p style="text-align:center;"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p></a>
+            <p class="description"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p>
+        <!--/a-->
         </div>
-        <div class="col" id="opensource"><a href="/?page_id=197">
+        <div class="col" id="opensource">
+        <!--a href="/?page_id=197"-->
             <h2><?php echo __('Fully customizable', $MY_TEXTDOMAIN); ?></h2>
-            <p style="text-align:center;"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', $MY_TEXTDOMAIN); ?></p></a>
+            <p class="description"><?php echo __('With the documented API it becomes easy to modify, develop your own plugin or interface', $MY_TEXTDOMAIN); ?></p>
+        <!--/a-->
         </div>
     </section>
     

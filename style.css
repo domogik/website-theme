@@ -215,6 +215,11 @@ section#content_home #first h2 {
     font-size: 1em
 }
 
+.description{
+    font-size: 0.9em;
+    text-align: center;
+}
+
 section#content_home #second a{
 	color: #0a4d6c;
 	text-decoration: none;
@@ -226,8 +231,8 @@ section#content_home #second a:hover{
 }
 
 section#content_home #second .col {
-    margin-top: 1em;
-    padding: 20px 1em 1em 1em;
+    margin-top: 0.5em;
+    padding: 0px 1em 1em 1em;
     background-position: 50% 0%;
     background-repeat: no-repeat;
 }
