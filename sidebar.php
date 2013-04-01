@@ -11,4 +11,5 @@
     <hr/>
     <?php wp_register(); ?>
     <?php wp_loginout(); ?>
+    <?php wp_meta(); ?> <!-- Allow adding callbacks after the sidebar. -->
 </div>
