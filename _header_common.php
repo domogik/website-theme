@@ -24,11 +24,9 @@
 <header id='header'>    
 <div class='wrapper'>
     <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
-	
-	<div id="langages">
-    <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0));?>
-	</div>
-	    
+    <div id="langages">
+        <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0));?>
+    </div>
     <nav id='primary'>
         <ul>
             <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
@@ -38,7 +36,6 @@
             <li><a href="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></a></li>
         </ul>
     </nav>
-
 </div>
 </header>
   
