@@ -70,7 +70,7 @@ header#header #home {
 
 nav ul li {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 header#header nav ul li.separator:after {
@@ -125,12 +125,22 @@ nav#languages ul li.separator:after {
 	height: 20px;
 	width: 960px;
 	margin: 0px;
-	}
+}
 	
 #searchform li{
 	text-align: right;	
 	list-style-type: none;	
-		}
+}
+	
+#searchsubmit{
+    width: 70px;
+    font-size: 1em;
+}
+
+#s{
+    width: 150px;
+    height: 10px;
+}
 
 /** BANNER **/
 
