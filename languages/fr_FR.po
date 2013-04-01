@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-01 08:28:54+0000\n"
+"PO-Revision-Date: 2013-04-01 15:49:11+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,79 +36,62 @@ msgid "Said&#58;"
 msgstr ""
 
 #: _header_common.php:6
-#: header.php:6
 #@ default
 msgid "Not Found"
 msgstr ""
 
-#: home.php:7
+#: home.php:8
 #@ domogik_v1
 msgid "Multi-technology"
 msgstr "Multi-technologies"
 
-#: home.php:8
-#@ domogik_v1
-msgid "Domogik evolves with the latest technologies"
-msgstr "Domogik évolue avec les dernières technologies"
-
-#: home.php:11
+#: home.php:14
 #@ domogik_v1
 msgid "Web interface"
 msgstr "Interface web"
 
-#: home.php:12
-#@ domogik_v1
-msgid "Web user interface"
-msgstr "Interface utilisateur web"
-
-#: home.php:15
+#: home.php:20
 #@ domogik_v1
 msgid "Fully customizable"
 msgstr "Adapté à vos besoins"
 
-#: home.php:16
+#: home.php:21
 #@ domogik_v1
 msgid "With the documented API it becomes easy to modify, develop your own plugin or interface"
 msgstr "Grâce à une API documentée il est facile de modifier ou de développer son propre plugin ou sa propre interface"
 
-#: home.php:57
+#: home.php:59
 #: home.php:92
 #@ domogik_v1
 msgid "View all posts"
 msgstr "Voir tous les articles"
 
 #: _header_common.php:34
-#: header.php:34
 #@ domogik_v1
 msgid "Download"
 msgstr "Télécharger"
 
 #: _header_common.php:35
-#: header.php:35
 #@ domogik_v1
 msgid "Documentation"
 msgstr "Documentation"
 
 #: _header_common.php:36
-#: header.php:36
 #@ domogik_v1
 msgid "Forum"
 msgstr "Forum"
 
 #: _header_common.php:37
-#: header.php:37
 #@ domogik_v1
 msgid "Packages"
 msgstr "Paquets"
 
 #: _header_common.php:38
-#: header.php:38
 #@ domogik_v1
 msgid "Dev"
 msgstr "Dev"
 
 #: _header_common.php:26
-#: header.php:28
 #@ domogik_v1
 msgid "Free Home Automation"
 msgstr "Solution libre de domotique"
@@ -163,8 +146,19 @@ msgstr "Catégorie"
 msgid "Edit"
 msgstr "Modifier"
 
+#: _header_common.php:45
 #: searchform.php:4
 #@ domogik_v1
 msgid "Search"
 msgstr "Rechercher"
+
+#: home.php:15
+#@ domogik_v1
+msgid "Domogik comes with a user interface so that you can use it quickly."
+msgstr "Domogik est livré en standard avec une interface web afin que vous puissiez l'utiliser rapidement."
+
+#: home.php:9
+#@ domogik_v1
+msgid "Domogik evolves with the latest technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). Other technologies are coming soon (zwave, rfxcom...)."
+msgstr "Domogik évolue avec les dernières technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). D'autres technologies sont en cours de développement (zwave, rfxcom...)."
 

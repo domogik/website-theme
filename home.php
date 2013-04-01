@@ -6,13 +6,13 @@
         <div class="col" id="multitechno">
             <!--a href="/?page_id=228"-->
                 <h2><?php echo __('Multi-technology', $MY_TEXTDOMAIN); ?></h2>
-                <p class="description"><?php echo __('Domogik evolves with the latest technologies', $MY_TEXTDOMAIN); ?></p>
+                <p class="description"><?php echo __('Domogik evolves with the latest technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). Other technologies are coming soon (zwave, rfxcom...).', $MY_TEXTDOMAIN); ?></p>
             <!--/a-->
         </div>
         <div class="col" id="html5">
         <!--a href="/?page_id=230"-->
             <h2><?php echo __('Web interface', $MY_TEXTDOMAIN); ?></h2>
-            <p class="description"><?php echo __('Web user interface', $MY_TEXTDOMAIN); ?></p>
+            <p class="description"><?php echo __("Domogik comes with a user interface so that you can use it quickly.", $MY_TEXTDOMAIN); ?></p>
         <!--/a-->
         </div>
         <div class="col" id="opensource">
