@@ -8,4 +8,7 @@
     <ul>
         <?php wp_get_archives('type=monthly'); ?>
     </ul>
+    <hr/>
+    <?php wp_register(); ?>
+    <?php wp_loginout(); ?>
 </div>
