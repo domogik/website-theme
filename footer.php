@@ -9,7 +9,7 @@
         </div>
         <div class="col col2">
             <div class="irc marginb">domogik@irc.freenode.net</div>
-            <div class="twitter">@domogik</div>
+            <div class="twitter"><a href="https://twitter.com/Domogik">#domogik</a></div>
         </div>
         <div class="col col3">
             Domogik&copy;2013
