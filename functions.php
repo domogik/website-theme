@@ -3,22 +3,6 @@
 <?php ini_set('display_errors', 'On'); ?>
 
 <?php
-if ( function_exists('register_sidebar') )
-register_sidebar();
-
-
-if ( function_exists('register_sidebar') ) {
-    register_sidebar(array(
-        'name' => 'Header',
-        'before_widget' => '<div id="header">',
-        'after_widget' => '</div>',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
-    ));
-
-}?>
-
-<?php
 function custom_excerpt_length( $length ) {
 	return 20;
 }
