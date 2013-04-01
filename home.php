@@ -47,7 +47,7 @@
             foreach($articles as $post) {
                 setup_postdata($post);
             ?>
-                <li id="titre_article_home">
+                <li class="titre_article_home">
                 <p><a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>"><?php the_title(); ?> </a><br><span class="date"><?php the_date('j F Y'); ?></span> 
                 </li>
                 
@@ -81,7 +81,7 @@
             foreach($articles as $post) {
                 setup_postdata($post);
             ?>
-                <li id="titre_article_home">
+                <li class="titre_article_home">
                 <p><a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>"><?php the_title(); ?> </a><br><span class="date"><?php the_date('j F Y'); ?></span> 
                 </li>
                 
@@ -94,15 +94,13 @@
             
         <div class="col" id='col_right'>
             <h2>|Twitter</h2>
-            <?php include('tweeter.php') ?>
+            <?php include('twitter.php') ?>
         </div>
         <div style="clear: both"></div>
         
     </section>
 </section>
-
-</div>
-
+ 
 <?php get_footer(); ?>
 
 </body>
