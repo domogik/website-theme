@@ -5,7 +5,7 @@ Author URI: http://www.bluevelvet.fr
 Description: Theme for the Domogik web site
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: domogik_v1
+Text Domain: domogik
 Version: 1.0
 
 This theme, like WordPress, is licensed under the GPL.
@@ -246,12 +246,12 @@ section#content_home #second p {
     font-size: 0.9em;	
 	}
 
-.titre_article_home {
+.home_single_title {
     list-style-type: square;
     color: #07394f;	
 	}
 	
-.titre_article_home p{ /** espace entre chaque paragraphe d'articles de la home **/
+.home_single_title p{ /** espace entre chaque paragraphe d'articles de la home **/
     padding-top: 0.8em;	
 	}
 	
@@ -260,12 +260,12 @@ section#content_home #second p {
     font-size: 0.85em;
 }
 
-.voir_articles {
+.view_posts {
     padding-top: 1em;
     color: #07394f;	
 	}
 	
-.voir_articles a:hover{
+.view_posts a:hover{
     text-decoration: underline;	
 	}
 
@@ -284,69 +284,76 @@ section#content_home #second p {
 
 /** CONTENT pages and singles **/
 
-div#content {
+#content {
+    width: 960px;
+    margin-left: 250px;
     font-size: 1.4em; /* 14px */
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
 }
 
-div#content .col {
-    margin-top: 0.5em;
-    padding: 0px 1em 1em 1em;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    width: 20em;
-    float: left;
-}
-
-div#content a{
+#content a{
 	color: #0a4d6c;
 	text-decoration: none;
 }
 
-div#content a:hover{
+#content a:hover{
 	color: #0a4d6c;
 	text-decoration: underline;
 }
 
-div#content h2 {
+#content h2 {
 	color: #3c6900;
     font-size: 1.3em;
 }
 
-div#content p {
+#content p {
     font-size: 0.9em;
 }
 
-div#sidebar {
-    font-size: 1em;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
-}
-
-div#sidebar .col {
-    margin-top: 0.5em;
-    padding: 0px 1em 1em 1em;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    width: 20em;
+#post{
+    width: 800px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
     float: left;
 }
 
-div#sidebar a{
+#post p{
+    margin-bottom: 10px;
+}
+
+
+/** SIDEBAR **/
+
+#sidebar {
+    padding-top: 20px;
+    width: 100px;
+    font-size: 1em;
+    float: right;
+}
+
+#sidebar li {
+    list-style-type: square;
+    color: #0a4d6c;
+}
+
+#sidebar a{
+    font-size: 0.9em;
 	color: #0a4d6c;
 	text-decoration: none;
 }
 
-div#sidebar a:hover{
+#sidebar a:hover{
 	color: #0a4d6c;
 	text-decoration: underline;
 }
 
-div#sidebar h2 {
+#sidebar h2 {
 	color: #3c6900;
     font-size: 1.2em;
+    padding-top: 10px;
 }
+
+
 
 @media screen and (min-width: 960px) {
 }
@@ -374,21 +381,6 @@ div#sidebar h2 {
 	}
 
 
-/** SIDEBAR **/
-
-#sidebar_content {
-	float: left;
-	margin-right: 200px;
-	background-color: red;
-	width: 90px;
-}
-
-.sidebar_content ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0 10px;
-}
-
 /** FOOTER **/
 footer {
     font-size: 1.4em; /* 14px */
@@ -415,7 +407,7 @@ footer .col3 { width: 10em; }
 
 .mailing a {
 	text-decoration: none;
-   color:#FFFFFF;
+    color:#FFFFFF;
 }
 .irc {
     padding-left: 25px;
@@ -485,6 +477,5 @@ footer .col3 { width: 10em; }
     .marginb {
         margin-bottom: 0;
     }
-}	color: #0a4d6c;
-	text-decoration: none;
-}
+}	
+

@@ -17,10 +17,10 @@ $rss_items = $rss->get_items(0, $maxitems);
     // Loop through each feed item and display each item as a hyperlink.
     foreach ($rss_items as $item) :
     ?>
-        <li class="titre_article_home">
-            <a href='<?php echo($item->get_permalink()); ?>'>
-            <?php echo($item->get_title()); ?>
-            </a>
+        <li class="home_single_title">
+            <p>
+                <a href='<?php echo($item->get_permalink()); ?>'><?php echo($item->get_title()); ?></a>
+            </p>
         </li>
     <?php
 

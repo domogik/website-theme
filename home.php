@@ -47,7 +47,7 @@
             foreach($articles as $post) {
                 setup_postdata($post);
             ?>
-                <li class="titre_article_home">
+                <li class="home_single_title">
                 <p><a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>"><?php the_title(); ?> </a><br><span class="date"><?php the_date('j F Y'); ?></span> 
                 </li>
                 
@@ -56,7 +56,7 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
+            <div class="view_posts"><a href="<?php echo(get_category_link($news_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
 
         <div class="col" id='col_middle'>
@@ -81,7 +81,7 @@
             foreach($articles as $post) {
                 setup_postdata($post);
             ?>
-                <li class="titre_article_home">
+                <li class="home_single_title">
                 <p><a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>"><?php the_title(); ?> </a><br><span class="date"><?php the_date('j F Y'); ?></span> 
                 </li>
                 
@@ -89,11 +89,11 @@
             <?php
             } // end foreach
             ?>
-            <div class="voir_articles"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
+            <div class="view_posts"><a href="<?php echo(get_category_link($blog_cat_id)) ; ?> ">><?php echo __('View all posts', $MY_TEXTDOMAIN); ?></a></div>
         </div>
             
         <div class="col" id='col_right'>
-            <h2>|Twitter</h2>
+            <h2>| Twitter</h2>
             <?php include('twitter.php') ?>
         </div>
         <div style="clear: both"></div>
