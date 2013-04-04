@@ -18,6 +18,11 @@
                 <?php if (!in_category('news-'.pll_current_language())) comments_template(); ?>
             </div>
         </div>
+        
+<div class="previous_next">
+    <?php previous_post_link() ?> || <?php next_post_link() ?> 
+</div>       
+        
         <?php endif; ?> 
     </div>
 

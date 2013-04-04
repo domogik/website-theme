@@ -273,6 +273,11 @@ section#content_home #second p {
     color: #3c6900;
 }
 
+.previous_next{ /**articles precedents et suivants **/
+    font-size: 0.9em;
+
+}
+
 @media screen and (min-width: 960px) {
 }
 
