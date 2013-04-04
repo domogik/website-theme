@@ -2,11 +2,7 @@
 
 <div id='content' role='main'>
     <div id='post'>
-        <?php
-        global $post;
-        $args = array( 'numberposts' => 10, 'category'=> $_REQUEST['cat']);
-        $myposts = get_posts( $args );
-        foreach( $myposts as $post ) :  setup_postdata($post); ?>
+        <?php while(have_posts()) : the_post(); ?>
             <h2>
                 <a href="<?php the_permalink() ?>" rel="bookmark" title="Link to <?php the_title_attribute(); ?>">
                     <?php the_title(); ?>
@@ -26,7 +22,7 @@
                     <?php if (!in_category('news-'.pll_current_language())) comments_template(); ?>
                 </div>
             </div>
-        <?php endforeach; ?>
+        <?php endwhile; ?>
     </div>
 
     <?php get_sidebar(); ?>
