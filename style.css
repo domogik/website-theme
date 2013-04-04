@@ -39,8 +39,8 @@ nav ul li {
 }
 
 p{
-text-align: justify;	
-	}
+text-align: justify;
+}
 
 /** HEADER **/
 header#header {
@@ -56,8 +56,8 @@ header#header a {
 }
 
 header#header #home {
-	height: 76px;
-	background: url("./images/domogik.png") left no-repeat;
+    height: 76px;
+    background: url("./images/domogik.png") left no-repeat;
     float: left;
     font-size: 1.8em; /* = 18px */
     color:#FFFFFF;
@@ -115,23 +115,23 @@ nav#languages ul li.separator:after {
 }
 
 .lang-item {
-	display: inline;
-	list-style: none;
-	padding-right: 8px;
+    display: inline;
+    list-style: none;
+    padding-right: 8px;
 }
 
 #searchform div{
-	text-align: right;
-	height: 20px;
-	width: 960px;
-	margin: 0px;
+    text-align: right;
+    height: 20px;
+    width: 960px;
+    margin: 0px;
 }
-	
+
 #searchform li{
-	text-align: right;	
-	list-style-type: none;	
+    text-align: right;	
+    list-style-type: none;	
 }
-	
+
 #searchsubmit{
     width: 70px;
     font-size: 1em;
@@ -165,7 +165,6 @@ nav#languages ul li.separator:after {
 
 section#content_home {
     font-size: 1.4em; /* 14px */
-
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }
@@ -221,13 +220,13 @@ section#content_home #first h2 {
 }
 
 section#content_home #second a{
-	color: #0a4d6c;
-	text-decoration: none;
+    color: #0a4d6c;
+    text-decoration: none;
 }
 
 section#content_home #second a:hover{
-	color: #0a4d6c;
-	text-decoration: underline;
+    color: #0a4d6c;
+    text-decoration: underline;
 }
 
 section#content_home #second .col {
@@ -238,23 +237,23 @@ section#content_home #second .col {
 }
 
 section#content_home #second h2 {
-	color: #3c6900;
+    color: #3c6900;
     font-size: 1.3em;
 }
 
 section#content_home #second p {
-    font-size: 0.9em;	
-	}
+    font-size: 0.9em;
+}
 
 .home_single_title {
     list-style-type: square;
     color: #07394f;	
-	}
-	
+}
+
 .home_single_title p{ /** espace entre chaque paragraphe d'articles de la home **/
     padding-top: 0.8em;	
-	}
-	
+}
+
 .date {
     color: gray;
     font-size: 0.85em;
@@ -263,11 +262,11 @@ section#content_home #second p {
 .view_posts {
     padding-top: 1em;
     color: #07394f;	
-	}
-	
+}
+
 .view_posts a:hover{
     text-decoration: underline;	
-	}
+}
 
 .postmetadata{
     color: #3c6900;
@@ -275,16 +274,6 @@ section#content_home #second p {
 
 .previous_next{ /**articles precedents et suivants **/
     font-size: 0.9em;
-
-}
-
-@media screen and (min-width: 960px) {
-}
-
-@media handheld, only screen and (max-width: 810px) {
-}
-
-@media handheld, only screen and (max-width: 775px) {
 }
 
 /** CONTENT pages and singles **/
@@ -296,17 +285,17 @@ section#content_home #second p {
 }
 
 #content a{
-	color: #0a4d6c;
-	text-decoration: none;
+    color: #0a4d6c;
+    text-decoration: none;
 }
 
 #content a:hover{
-	color: #0a4d6c;
-	text-decoration: underline;
+    color: #0a4d6c;
+    text-decoration: underline;
 }
 
 #content h2 {
-	color: #3c6900;
+    color: #3c6900;
     font-size: 1.3em;
 }
 
@@ -326,7 +315,6 @@ section#content_home #second p {
     margin-bottom: 10px;
 }
 
-
 /** SIDEBAR **/
 
 #sidebar {
@@ -343,48 +331,27 @@ section#content_home #second p {
 
 #sidebar a{
     font-size: 0.9em;
-	color: #0a4d6c;
-	text-decoration: none;
+    color: #0a4d6c;
+    text-decoration: none;
 }
 
 #sidebar a:hover{
-	color: #0a4d6c;
-	text-decoration: underline;
+    color: #0a4d6c;
+    text-decoration: underline;
 }
 
 #sidebar h2 {
-	color: #3c6900;
+    color: #3c6900;
     font-size: 1.2em;
     padding-top: 10px;
-}
-
-
-
-@media screen and (min-width: 960px) {
-}
-
-@media handheld, only screen and (max-width: 960px) {
-}
-
-@media handheld, only screen and (max-width: 810px) {
-}
-
-@media handheld, only screen and (max-width: 775px) {
-    section#main {
-        float: none;
-    }
-}
-
-@media handheld, only screen and (max-width: 505px) {
 }
 
 /** COMMENTS **/
 
 .comments-template {
-	font-size: 1em;
-	color: gray;	
-	}
-
+    font-size: 1em;
+    color: gray;
+}
 
 /** FOOTER **/
 footer {
@@ -411,7 +378,7 @@ footer .col3 { width: 10em; }
 }
 
 .mailing a {
-	text-decoration: none;
+    text-decoration: none;
     color:#FFFFFF;
 }
 .irc {
@@ -482,5 +449,22 @@ footer .col3 { width: 10em; }
     .marginb {
         margin-bottom: 0;
     }
-}	
+}
 
+@media screen and (min-width: 960px) {
+}
+
+@media handheld, only screen and (max-width: 960px) {
+}
+
+@media handheld, only screen and (max-width: 810px) {
+}
+
+@media handheld, only screen and (max-width: 775px) {
+    section#main {
+        float: none;
+    }
+}
+
+@media handheld, only screen and (max-width: 505px) {
+}
