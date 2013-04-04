@@ -19,9 +19,9 @@
             </div>
         </div>
         
-<div class="previous_next">
-    <?php previous_post_link() ?> || <?php next_post_link() ?> 
-</div>       
+        <div class="previous_next">
+            <?php previous_post_link() ?> || <?php next_post_link() ?> 
+        </div>       
         
         <?php endif; ?> 
     </div>
