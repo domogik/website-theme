@@ -1,4 +1,4 @@
-<?php $MY_TEXTDOMAIN = 'domogik_v1'; ?>
+<?php $MY_TEXTDOMAIN = 'domogik'; ?>
 
 <?php ini_set('display_errors', 'On'); ?>
 
