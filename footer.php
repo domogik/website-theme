@@ -1,5 +1,4 @@
-<div id="footer">
-<footer role="contentinfo">
+<footer id="footer" role="contentinfo">
     <div class='wrapper'>
         <div class="col col1">
             <?php echo __('General mailing-list', $MY_TEXTDOMAIN); ?>:<br />
@@ -9,11 +8,10 @@
         </div>
         <div class="col col2">
             <div class="irc marginb">domogik@irc.freenode.net</div>
-            <div class="twitter mailing"><a href="https://twitter.com/Domogik">#domogik</a></div>
+            <div class="twitter mailing"><a href="https://twitter.com/Domogik">@domogik</a></div>
         </div>
         <div class="col col3">
             Domogik&copy;2013
         </div>
     </div>
 </footer>
-</div>

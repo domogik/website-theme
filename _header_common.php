@@ -21,31 +21,35 @@
     <?php wp_head(); ?>
 </head>
 <body>
-
-<header id='header'>    
-<div class='wrapper'>
-    <a href="<?php bloginfo('url'); ?>" id='home'>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
-    <div id="languages">
-        <ul>
-            <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0));?>
-        </ul>
+    <div class='wrapper'>
+        <nav id="languages">
+            <ul>
+                <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0));?>
+            </ul>
+        </nav>
     </div>
-    <nav id='primary'>
-        <ul>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
-            <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', $MY_TEXTDOMAIN); ?></a></li>
-            <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', $MY_TEXTDOMAIN); ?></a></li>
-            <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', $MY_TEXTDOMAIN); ?></a></li>
-            <li><a href="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></a></li>
-        </ul>
-    </nav>
-    <div id="searchform">
-        <form method="get" action="<?php bloginfo('home'); ?>/">
-        <div>
-            <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" />
-            <input type="submit" id="searchsubmit" value="<?php _e("Search", $MY_TEXTDOMAIN); ?>" />
+    <header id='header'>
+        <div class='wrapper'>
+            <a href='<?php bloginfo('url'); ?>' id='home'><div id='logo'></div>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
+            <nav id='primary'>
+                <ul>
+                    <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
+                    <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', $MY_TEXTDOMAIN); ?></a></li>
+                    <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', $MY_TEXTDOMAIN); ?></a></li>
+                    <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', $MY_TEXTDOMAIN); ?></a></li>
+                    <li><a href="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></a></li>
+                </ul>
+                <select>
+                    <option value="">Select a link</option>
+                    <option value="http://docs.domogik.org"><?php echo __('Documentation', $MY_TEXTDOMAIN); ?></option>
+                    <option value="http://forum.domogik.org"><?php echo __('Forum', $MY_TEXTDOMAIN); ?></option>
+                    <option value="http://repo.domogik.org/package"><?php echo __('Packages', $MY_TEXTDOMAIN); ?></option>
+                    <option value="http://tracker.domogik.org"><?php echo __('Tracker', $MY_TEXTDOMAIN); ?></option>
+                    <option value="http://wiki.domogik.org"><?php echo __('Dev', $MY_TEXTDOMAIN); ?></option>
+                </select>
+            </nav>
+            <form id="searchform" method="get" action="<?php bloginfo('home'); ?>/">
+                <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" /><input type="submit" id="searchsubmit" aria-label='<?php _e("Search", $MY_TEXTDOMAIN); ?>' value="" />
+            </form>
         </div>
-        </form>
-    </div>
-</div>
-</header>
+    </header>
