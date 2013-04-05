@@ -324,7 +324,7 @@ nav#languages ul li.separator:after {
     width: 79%;
     padding-top: 1em;
     padding-right: 2em;
-    border-right: 1px solid gray;
+    border-right: 1px solid #aaaaaa;
     float: left;
 }
 
