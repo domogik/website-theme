@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php get_header(); ?>
 
 <div id='content' role='main'>
     <div id='post'>

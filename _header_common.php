@@ -1,3 +1,4 @@
+<?php global $MY_TEXTDOMAIN; ?>
 <!DOCTYPE html>
 <!-- This page is included in all pages but in the home page -->
 <html xmlns="http://www.w3.org/1999/xhtml">

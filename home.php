@@ -1,4 +1,4 @@
-<?php include('header_home.php'); ?> 
+<?php include('header_home.php'); ?>
 
 <section id='content_home' role='main' class='wrapper'>
 

@@ -1,4 +1,4 @@
-<?php include('_header_common.php') ?>
+<?php get_header(); ?>
 
 <section id="banner" role="banner">
     <div class="wrapper">
