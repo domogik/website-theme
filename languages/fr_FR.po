@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Domogik v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-01 21:35:36+0000\n"
+"PO-Revision-Date: 2013-04-11 13:24:52+0000\n"
 "Last-Translator: mirelsol <marc@mirelsol.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,145 +20,127 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: comments.php:32
-#@ default
-msgid "le"
-msgstr ""
-
-#: comments.php:32
-#@ default
-msgid "&agrave;"
-msgstr ""
-
-#: comments.php:32
-#@ default
-msgid "Said&#58;"
-msgstr ""
-
-#: _header_common.php:6
+#: _header_common.php:7
 #@ default
 msgid "Not Found"
 msgstr ""
 
 #: home.php:8
-#@ domogik_v1
+#@ domogik
 msgid "Multi-technology"
 msgstr "Multi-technologies"
 
 #: home.php:14
-#@ domogik_v1
+#@ domogik
 msgid "Web interface"
 msgstr "Interface web"
 
 #: home.php:20
-#@ domogik_v1
+#@ domogik
 msgid "Fully customizable"
 msgstr "Adapté à vos besoins"
 
 #: home.php:21
-#@ domogik_v1
+#@ domogik
 msgid "With the documented API it becomes easy to modify, develop your own plugin or interface"
 msgstr "Grâce à une API documentée il est facile de modifier ou de développer son propre plugin ou sa propre interface"
 
-#: home.php:59
-#: home.php:92
-#@ domogik_v1
+#: home.php:62
+#: home.php:96
+#@ domogik
 msgid "View all posts"
 msgstr "Voir tous les articles"
 
-#: _header_common.php:34
-#@ domogik_v1
+#: _header_common.php:36
+#@ domogik
 msgid "Download"
 msgstr "Télécharger"
 
-#: _header_common.php:35
-#@ domogik_v1
+#: _header_common.php:37
+#: _header_common.php:44
+#@ domogik
 msgid "Documentation"
 msgstr "Documentation"
 
-#: _header_common.php:36
-#@ domogik_v1
+#: _header_common.php:38
+#: _header_common.php:45
+#@ domogik
 msgid "Forum"
 msgstr "Forum"
 
-#: _header_common.php:37
-#@ domogik_v1
+#: _header_common.php:39
+#: _header_common.php:46
+#@ domogik
 msgid "Packages"
 msgstr "Paquets"
 
-#: _header_common.php:38
-#@ domogik_v1
+#: _header_common.php:40
+#: _header_common.php:48
+#@ domogik
 msgid "Dev"
 msgstr "Dev"
 
-#: _header_common.php:26
-#@ domogik_v1
+#: _header_common.php:33
+#@ domogik
 msgid "Free Home Automation"
 msgstr "Solution libre de domotique"
 
 #: header_home.php:5
-#@ domogik_v1
+#@ domogik
 msgid "Domogik is a modular open source home automation solution based on xPL."
 msgstr "Domogik est un logiciel libre de domotique basé sur le protocole xPL."
 
-#: footer.php:5
-#@ domogik_v1
+#: footer.php:4
+#@ domogik
 msgid "General mailing-list"
 msgstr "Liste de diffusion générale"
 
-#: footer.php:7
-#@ domogik_v1
+#: footer.php:6
+#@ domogik
 msgid "Developers mailing-list"
 msgstr "Liste de diffusion développeurs"
 
-#: comments.php:7
-#@ domogik_v1
-msgid "Protected by password"
-msgstr "Protégé par mot de passe"
-
-#: comments.php:8
-#@ domogik_v1
-msgid "Enter the password to see the comments"
-msgstr "Entrez le mot de passe pour voir les commentaires"
-
-#: comments.php:34
-#@ domogik_v1
-msgid "Your comment is awaiting moderation"
-msgstr "Votre commentaire est en cours d'approbation"
-
-#: comments.php:89
-#@ domogik_v1
-msgid "You can use these tags"
-msgstr "Vous pouvez utiliser ces tags"
-
-#: single.php:9
-#@ domogik_v1
+#: archive.php:14
+#: category.php:14
+#: index.php:13
+#: search.php:14
+#: single.php:10
+#@ domogik
 msgid "by"
 msgstr "Par"
 
-#: single.php:10
-#@ domogik_v1
+#: archive.php:15
+#: category.php:15
+#: index.php:14
+#: search.php:15
+#: single.php:11
+#@ domogik
 msgid "Category"
 msgstr "Catégorie"
 
-#: single.php:11
-#@ domogik_v1
+#: archive.php:16
+#: category.php:16
+#: index.php:15
+#: page.php:11
+#: search.php:16
+#: single.php:12
+#@ domogik
 msgid "Edit"
 msgstr "Modifier"
 
-#: _header_common.php:45
+#: _header_common.php:52
 #: searchform.php:4
-#@ domogik_v1
+#@ domogik
 msgid "Search"
 msgstr "Rechercher"
 
 #: home.php:15
-#@ domogik_v1
+#@ domogik
 msgid "Domogik comes with a user interface so that you can use it quickly."
 msgstr "Domogik est livré en standard avec une interface web afin que vous puissiez l'utiliser rapidement."
 
 #: home.php:9
-#@ domogik_v1
+#@ domogik
 msgid "Domogik evolves with the latest technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). Other technologies are coming soon (zwave, rfxcom...)."
 msgstr "Domogik évolue avec les dernières technologies (Teleinfo, x10, plcbus, mirror, ipx800, Onewire...). D'autres technologies sont en cours de développement (zwave, rfxcom...)."
 
@@ -167,13 +149,18 @@ msgstr "Domogik évolue avec les dernières technologies (Teleinfo, x10, plcbus,
 msgid "No tweet."
 msgstr ""
 
-#: sidebar.php:2
-#@ domogik_v1
+#: sidebar.php:3
+#@ domogik
 msgid "Categories"
 msgstr "Catégories"
 
-#: sidebar.php:6
-#@ domogik_v1
+#: sidebar.php:7
+#@ domogik
 msgid "Archives"
 msgstr "Archives"
+
+#: _header_common.php:47
+#@ domogik
+msgid "Tracker"
+msgstr ""
 
