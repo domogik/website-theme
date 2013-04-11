@@ -33,7 +33,12 @@
             <a href='<?php bloginfo('url'); ?>' id='home'><div id='logo'></div>Domogik<div class='sub'><?php echo __('Free Home Automation', $MY_TEXTDOMAIN); ?></div></a>
             <nav id='primary'>
                 <ul>
-                    <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
+                    <?php
+                        $downloadPageId = get_page_by_title('Download')->ID;
+                        $downloadPageId = pll_get_post($downloadPageId, pll_current_language());
+                        $downloadLink = get_page_link($downloadPageId);
+                    ?>
+                    <li class="separator"><a href="<?php echo($downloadLink); ?>"><?php echo __('Download', $MY_TEXTDOMAIN); ?></a></li>
                     <li class="separator"><a href="http://docs.domogik.org"><?php echo __('Documentation', $MY_TEXTDOMAIN); ?></a></li>
                     <li class="separator"><a href="http://forum.domogik.org"><?php echo __('Forum', $MY_TEXTDOMAIN); ?></a></li>
                     <li class="separator"><a href="http://repo.domogik.org/package"><?php echo __('Packages', $MY_TEXTDOMAIN); ?></a></li>
