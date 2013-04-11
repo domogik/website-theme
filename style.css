@@ -312,12 +312,14 @@ nav#languages ul li.separator:after {
 }
 
 #content h2 {
+    margin: 1em;
     color: #3c6900;
     font-size: 1.3em;
 }
 
-#content p {
-    font-size: 0.9em;
+#content h3 {
+    color: #3c6900;
+    font-size: 1.1em;
 }
 
 #post {
@@ -332,6 +334,25 @@ nav#languages ul li.separator:after {
     margin-bottom: 10px;
 }
 
+#content table {
+    margin: 1em 0 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+#content table th,
+#content table td {
+    margin: 0;
+    padding: 0.5em;
+    border: 0 solid #cccccc;
+    border-width: 0 0 1px 0;
+    text-align: left;
+}
+
+#content table th {
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
 /** SIDEBAR **/
 
 #sidebar {
@@ -497,4 +518,110 @@ footer .col3 { width: 10em; }
 }
 
 @media handheld, only screen and (max-width: 505px) {
+}
+
+/* DOWNLOAD PAGE */
+#content .download_main,
+#content .download_secondary,
+#content .download_external {
+    margin: 2em 1em 1em 1em;
+    position: relative;
+    display: block;
+    background: #ffffff url("./images/grid.png") top left repeat;
+    text-align: right;
+    border: 1px solid #aaaaaa;
+}
+
+#content .download_main h3,
+#content .download_secondary h3 {
+    display: inline-block;
+    font-size: 1.4em;
+    color: #000000;
+    margin: 1em;
+    padding-right: 5em;
+    float: left;
+}
+
+#content .download_main .download-news {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#content .download_main .download-news li {
+    margin: 0;
+    padding: 1em;
+    display: inline-block;
+    width: 10em;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #aaaaaa;
+}
+
+#content .download_main .download_links,
+#content .download_secondary .download_links {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+#content .download_main .download-button,
+#content .download_secondary .download-button {
+    display: block;
+    padding: 1em 1em 1em 50px;
+    border: 1px solid #0A4D6C;
+    color: #ffffff;
+    font-weight: bold;
+    
+    background-color: #0e668d; /* Old browsers */
+    
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background-image: url('./images/icon_download.png'), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBlNjY4ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNjJmNDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background-image: url('./images/icon_download.png'), -moz-linear-gradient(top,  #0e668d 0%, #062f43 100%); /* FF3.6+ */
+    background-image: url('./images/icon_download.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e668d), color-stop(100%,#062f43)); /* Chrome,Safari4+ */
+    background-image: url('./images/icon_download.png'), -webkit-linear-gradient(top,  #0e668d 0%,#062f43 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url('./images/icon_download.png'), -o-linear-gradient(top,  #0e668d 0%,#062f43 100%); /* Opera 11.10+ */
+    background-image: url('./images/icon_download.png'), -ms-linear-gradient(top,  #0e668d 0%,#062f43 100%); /* IE10+ */
+    background-image: url('./images/icon_download.png'), linear-gradient(to bottom,  #0e668d 0%,#062f43 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e668d', endColorstr='#062f43',GradientType=0 ); /* IE6-8 */
+    background-position: 10px 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    border-radius: 0.8em;
+}
+
+#content .download_main .download-button .date_release,
+#content .download_secondary .download-button .date_release {
+    font-weight: normal;
+    color: #cccccc;
+    font-size: 0.8em;
+    padding-left: 1em;
+}
+
+#content .download_main .download-other {
+    font-size: 0.8em;
+}
+
+#content .domogik-logo {
+    position: absolute;
+    margin: -5px 0 0 13em;
+    width: 90px;
+    height: 94px;
+    background: transparent url('./images/domogik.png') 0 0 no-repeat;
+}
+
+#content .google-logo {
+    position: absolute;
+    margin: -5px 0 0 13em;
+    width: 235px;
+    height: 76px;
+    background: transparent url('./images/google_play.png') 0 0 no-repeat;
+}
+
+#content .download_external {
+    padding: 2em;
+    text-align: center;
 }
