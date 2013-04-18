@@ -46,12 +46,22 @@ text-align: justify;
 }
 
 /** HEADER **/
+/* Fix fritz 
 header#header {
     border-top: 3px solid #005774;
     background: linear-gradient(#373737 0%, #252525 100%) repeat scroll 0 0 transparent;
     width: 100%;
     text-align: right;
 }
+*/
+
+header#header {
+    border-top: 3px solid #005774;
+    background-color: #252525;
+    width: 100%;
+    text-align: right;
+}
+/* fin fix fritz */
 header#header a {
     text-decoration: none;
     color:#FFFFFF;
