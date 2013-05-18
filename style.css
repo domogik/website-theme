@@ -363,6 +363,18 @@ nav#languages ul li.separator:after {
     text-transform: uppercase;
     font-size: 1.1em;
 }
+
+#content ul, #content ol {
+    margin: 0 0 0 1em;
+}
+
+#content strong {
+    font-weight:bold;
+}
+#content em {
+    font-style:italic;
+}
+
 /** SIDEBAR **/
 
 #sidebar {
