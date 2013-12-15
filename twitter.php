@@ -2,12 +2,14 @@
 Don't forget to update the code with your username on line 3. Max items to display can be defined on line 4. -->
 
 <?php
+/*
 include_once(ABSPATH . WPINC . '/feed.php');
 $rss = fetch_feed('https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=domogik');
 $maxitems = $rss->get_item_quantity(5);
 $rss_items = $rss->get_items(0, $maxitems);
+*/
 ?>
-
+<!--
 <ul>
     <?php 
     if ($maxitems == 0) {
@@ -28,3 +30,6 @@ $rss_items = $rss->get_items(0, $maxitems);
     ?>
 </ul>
 
+-->
+As Twitter disabled recently their RSS feeds, this section is currently empty.<br/>
+Comme Twitter a récemment désactivé les flux RSS, cette section est pour le moment vide.

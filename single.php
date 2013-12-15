@@ -4,7 +4,7 @@
     <main id='content' role='main'>
         <article id='post'>
             <?php if(have_posts()) : the_post(); ?>
-            <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+            <h1><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
             
             <p class="postmetadata">
             <?php the_time('j F Y') ?>&nbsp;<?php _e('by', $MY_TEXTDOMAIN); ?>&nbsp;<?php the_author() ?> | 
